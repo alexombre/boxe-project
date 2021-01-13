@@ -1,0 +1,58 @@
+@font-face { font-family: Delicious; src: url('LiberationSans-Bold-webfont.ttf'); } 
+
+html {
+    font-family: Delicious, Roboto;
+}
+
+header {
+    background-image: url('../images/background.jpg');
+}
+
+main {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+/*
+main > div:first-child {
+    background-image: url('../images/header-page-catalogue.png');
+    height: 100%;
+    width: 100%;
+}
+*/
+.reduc {
+    top: 5%;
+    right: -40px;
+    width: 80px;
+
+}
+
+.card {
+    width: 15 rem;
+}
+
+.absolute-footer {
+    top: -13px;
+    height: 26px;
+}
+
+footer {
+    position: relative;
+    background-color: rgb(32,32,32);
+    color: white;
+}
+
+footer > img {
+    width: 30 rem;
+    height: 30 rem;
+}
+
+.old-price {
+    text-decoration: line-through;
+    
+}
+
+.new-price {
+    color: goldenrod
+    
+}
