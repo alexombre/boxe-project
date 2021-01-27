@@ -4,15 +4,40 @@ html {
     font-family: Delicious, Roboto;
 }
 
-header {
-    background-image: url('../images/background.jpg');
+header{
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: url('../images/background.jpg') 50% 0 no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+.bg-input {
+    background-color: rgba(248, 249, 250, 0.5);
+}
+
+.btn-success-input{
+    color: white;
+    background-color: rgba(25, 135, 84, 0.5);
 }
 
 main {
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
+
+img {
+    width: 350px;
+    height: 200px;
+}
+
+
 /*
 main > div:first-child {
     background-image: url('../images/header-page-catalogue.png');
@@ -36,16 +61,7 @@ main > div:first-child {
     height: 26px;
 }
 
-footer {
-    position: relative;
-    background-color: rgb(32,32,32);
-    color: white;
-}
 
-footer > img {
-    width: 30 rem;
-    height: 30 rem;
-}
 
 .old-price {
     text-decoration: line-through;
